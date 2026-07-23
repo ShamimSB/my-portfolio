@@ -1,6 +1,7 @@
 // import React from 'react';
 
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 
 const Home = () => {
@@ -18,10 +19,29 @@ const Home = () => {
 
         <p className="text-slate-400 text-base md:text-lg leading-relaxed">I love building responsive, user-friendly, and modern web applications using HTML5,CSS3 and JavaScript (ES6). Focused on writing clean code and creating beautiful user experiences.</p>
 
-        <div className="flex flex-wrap gap-4 justify-center md:justify-start pt-2">
-          <Link to={"/contact"} className="px-6 py-3 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">Hire Me</Link>
+       <div className="flex flex-wrap gap-4 justify-center    md:justify-start pt-2">
+        <Link to={"/contact"} className="px-6 py-3 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">Hire Me</Link>
+
+        <div className="flex items-center">
+          <a href="https://github.com/ShamimSB"
+          target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-600 text-2xl transition-all duration-300 transform hover:-translate-y-1">
+            <FaGithub/>
+          </a>
         </div>
+
+        <div className="flex items-center">
+          <a href="https://www.linkedin.com/in/shamim-bhuiyan-b2261b3b7/" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-600 text-2xl transition-all duration-300 transform hover:-translate-y-1">
+             <FaLinkedin/>
+         </a>
         </div>
+
+        <div className="flex items-center">
+          <a href="mailto:bhuiyanshamim09@gmail.com" className="text-slate-400 hover:text-blue-600 text-2xl transition-all duration-300 transform hover:-translate-y-1">
+            <FaEnvelope/>
+          </a>
+        </div>
+       </div>
+     </div>
 
    {/* Add Profile */}
         <div className="flex justify-center order-1 md:order-2">
@@ -30,12 +50,11 @@ const Home = () => {
             <span className="text-slate-500">
               <img src="/profile.jpg" alt="profile" className="w-full h-full object-cover" />
             </span>
-
           </div>
-        </div>
+        </div>       
       </div>
       </div>
   )
 }
 
-export default Home
+export default Home;
