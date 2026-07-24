@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 
+
 const Home = () => {
   return (
     <div className="bg-slate-800 min-h-[86vh] text-white flex items-center p-8">
@@ -48,7 +49,7 @@ const Home = () => {
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-slate-700 bg-slate-900 flex items-center justify-center shadow-2xl overflow-hidden">
           
             <span className="text-slate-500">
-              <img src="/profile.jpg" alt="profile" className="w-full h-full object-cover" />
+             <img src="profile.jpg" alt="profile" className="w-full h-full object-cover" />
             </span>
           </div>
         </div>       
