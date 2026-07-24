@@ -12,8 +12,8 @@ const projectData = [
     description: "A clean and interactive rating conponent that allows users to select a rating score and view a dynamic thank-you state upon submission",
     image: "/rating.png",
     technologies: ["JavaScript, CSS3 and HTML5"],
-    liveLink:  "https://github.com/ShamimSB/Interactive-rating-component",
-    githubLink: "https://shamimsb.github.io/Interactive-rating-component/"
+    liveLink: "https://shamimsb.github.io/Interactive-rating-component/",
+    githubLink: "https://github.com/ShamimSB/Interactive-rating-component"
   },
   {
     id: 2,

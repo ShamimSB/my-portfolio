@@ -98,11 +98,11 @@ const handleSubmit = async (e)=>{
             </div>
 
             <div>
-              <label htmlFor="message" className="block text-slate-300 text-sm font-medium mb-2 mt-3">Your Email: </label>
+              <label htmlFor="message" className="block text-slate-300 text-sm font-medium mb-2 mt-3">Your Message: </label>
               <textarea name="message" id="message" rows="4" value={data.message} onChange={handleChange} required placeholder="Write your message here..." className="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2.5 text-slate-100 text-sm focus:outline-none focus:border-amber-400 transition-colors resize-none"></textarea>
             </div>
 
-            <button type="submit" disabled={loding} className="w-full flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-500 disabled:bg-amber-500/50 text-white font-bold px-6 py-3 rounded-lg transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer"> <FaPaperPlane className="text-sm"/> {loding ? "Sending" : "Send Message"}</button>
+            <button type="submit" disabled={loding} className="w-full flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-600 disabled:bg-amber-500/50 text-white font-bold px-6 py-3 rounded-lg transition-all duration-300 transform hover:-translate-y-0.5 cursor-pointer"> <FaPaperPlane className="text-sm"/> {loding ? "Sending" : "Send Message"}</button>
 
           </form>
         </div>

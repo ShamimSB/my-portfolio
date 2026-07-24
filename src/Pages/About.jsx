@@ -22,7 +22,7 @@ const skills = [
            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight">About <span className="text-amber-400">Me</span></h2> 
 
            <p className="text-slate-400 text-base md:text-lg leading-relaxed max-w-3xl">
-            I am a passionate Frontend web Developer and student of Conputer Science & Technology. I love turning conplex problems into beautiful, responsive and user-friendly web applications. My focus is always on writing clean, efficient code and  creating seamless user experiences.
+            I am a passionate Frontend web Developer and student of Computer Science & Technology. I love turning complex problems into beautiful, responsive and user-friendly web applications. My focus is always on writing clean, efficient code and  creating seamless user experiences.
            </p>
         </div>
   {/* Educations */}
